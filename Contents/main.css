@@ -1,0 +1,27 @@
+button {
+	font: 200% Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0 -2px 2px #ec7a00,
+		1px 1px 1px #ffca00;
+	background-color: orange;
+	background: linear-gradient(to bottom, #ffca00, #ff9b00);
+	border-radius: 25px;
+	border: 2px solid #ff9b00;
+	box-shadow: 0 3px 5px #999;
+	height: 100px;
+	width: 200px;
+	margin: 10px;
+	text-align: center;
+	position: relative;
+	outline: none;
+}
+button:hover {
+	box-shadow: 0 5px 5px #999;
+	
+}
+button:active {
+	box-shadow: 0 3px 5px #ec7a00 inset;
+	
+}
+
